@@ -10,7 +10,7 @@ filterA1=adaptive_filter(2,'SGD',0.01);
 % filterA1 = adaptive_filter(300,'LMS',0.01);
 % filterA1 = adaptive_filter(300,'NLMS',0.01);
 % filterA1 = adaptive_filter(300,'RLS',0.03);
-filterA1 = adaptive_filter(300,'FDAF',0.9);
+% filterA1 = adaptive_filter(300,'FDAF',0.9);
 %% perform nsample iterations
 tic
 for sample=1:nsample
